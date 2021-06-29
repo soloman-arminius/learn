@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education Site (version 1)</title>
+    <link>/</link>
+    <description>Recent content on Education Site (version 1)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First introductory video</title>
+      <link>/videos/1_introduction/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/videos/1_introduction/</guid>
+      <description>&lt;p&gt;These two videos are the first in the Computer Technology educational series by Soloman Arminius. An attempt is made to keep them around five minutes long.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Second introductory video</title>
+      <link>/videos/2_introduction/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/videos/2_introduction/</guid>
+      <description>&lt;p&gt;This is the second of two first-draft videos of the first in the Computer Technology educational series by Soloman Arminius.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Episode 2: Mobile Devices and Workstations</title>
+      <link>/videos/2_mobile_and_workstation/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/videos/2_mobile_and_workstation/</guid>
+      <description>&lt;p&gt;Episode 2 of the Computers, Cyber, and Technology series. This episode is focused on components of mobile devices and modern workstations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Written with Hugo This site is created using Hugo to generate a static site that is hosted on GitHub and duplicated in IPFS and other locations.
+Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</description>
+    </item>
+    
+  </channel>
+</rss>

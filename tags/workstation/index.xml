@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workstation on Education Site (version 1)</title>
+    <link>/tags/workstation/</link>
+    <description>Recent content in workstation on Education Site (version 1)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/workstation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Episode 2: Mobile Devices and Workstations</title>
+      <link>/videos/2_mobile_and_workstation/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/videos/2_mobile_and_workstation/</guid>
+      <description>&lt;p&gt;Episode 2 of the Computers, Cyber, and Technology series. This episode is focused on components of mobile devices and modern workstations.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
