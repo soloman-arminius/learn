@@ -44,7 +44,7 @@
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Written with Hugo This site is created using Hugo to generate a static site that is hosted on GitHub and duplicated in IPFS and other locations.
+      <description>Written with Hugo This site is created using Hugo to generate a static site that is hosted on GitHub and duplicated in IPFS and deep web (web 3.0) locations.
 Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</description>
     </item>
     
