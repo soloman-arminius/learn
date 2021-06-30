@@ -6,7 +6,7 @@
     <description>Recent content on Education Site (ver 1)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -41,7 +41,7 @@
     <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>Written with Hugo This site is created using Hugo to generate a static site that is hosted on GitHub and duplicated in IPFS and deep web (web 3.0) locations.
