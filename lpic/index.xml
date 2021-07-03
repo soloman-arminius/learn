@@ -40,5 +40,32 @@ Topic 200: Capacity Planning 200.1 Measure and Troubleshoot Resource Usage Descr
 Topic 207: Domain Name Server 207.1 Basic DNS server configuration Description: Candidates should be able to configure BIND to function as a caching-only DNS server. This objective includes the ability to manage a running server and configuring logging. Key Knowledge Areas: - BIND 9.x configuration files, terms and utilities - Defining the location of the BIND zone files in BIND configuration files - Reloading modified configuration and zone files - Awareness of dnsmasq, djbdns and PowerDNS as alternate name servers  The following is a partial list of the used files, terms and utilities: - /etc/named.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/lpic/exam-300/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lpic/exam-300/</guid>
+      <description>Topic 390: OpenLDAP Configuration 390.1 OpenLDAP Replication Description: Candidates should be familiar with the server replication available with OpenLDAP. Key Knowledge Areas: - Replication concepts - Configure OpenLDAP replication - Analyze replication log files - Understand replica hubs - LDAP referrals - LDAP sync replication  The following is a partial list of the used files, terms and utilities: - master / slave server - multi-master replication - consumer - replica hub - one-shot mode - referral - syncrepl - pull-based / push-based synchronization - refreshOnly and refreshAndPersist - replog  390.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/lpic/exam-303/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lpic/exam-303/</guid>
+      <description>Topic 325: Cryptography 325.1 X.509 Certificates and Public Key Infrastructures Description: Candidates should understand X.509 certificates and public key infrastructures. They should know how to configure and use OpenSSL to implement certification authorities and issue SSL certificates for various purposes. Key Knowledge Areas: - Understand X.509 certificates, X.509 certificate lifecycle, X.509 certificate fields and X.509v3 certificate extensions - Understand trust chains and public key infrastructures - Generate and manage public and private keys - Create, operate and secure a certification authority - Request, sign and manage server and client certificates - Revoke certificates and certification authorities  The following is a partial list of the used files, terms and utilities: - openssl, including relevant subcommands - OpenSSL configuration - PEM, DER, PKCS - CSR - CRL - OCSP  325.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/lpic/exam-304/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lpic/exam-304/</guid>
+      <description>Topic 330: Virtualization 330.1 Virtualization Concepts and Theory Description: Candidates should know and understand the general concepts, theory and terminology of Virtualization. This includes Xen, KVM and libvirt terminology. Key Knowledge Areas: - Terminology - Pros and Cons of Virtualization - Variations of Virtual Machine Monitors - Migration of Physical to Virtual Machines - Migration of Virtual Machines between Host systems - Cloud Computing  The following is a partial list of the used files, terms and utilities: - Hypervisor - Hardware Virtual Machine (HVM) - Paravirtualization (PV) - Container Virtualization - Emulation and Simulation - CPU flags - /proc/cpuinfo - Migration (P2V, V2V) - IaaS, PaaS, SaaS  330.</description>
+    </item>
+    
   </channel>
 </rss>

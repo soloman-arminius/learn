@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    
+    
+    <title>Education Site (ver 1) | </title>
+    <style type="text/css">
+  body {
+    font-size: 150%;
+    font-family: muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  }
+</style>
+
+</head>
+<body><p><a href="#nav-menu">Menu</a></p>
+
+
+
+<h1></h1>
+
+
+  </p>
+
+
+
+
+
+
+<h1 id="topic-325-cryptography">Topic 325: Cryptography</h1>
+<h2 id="3251-x509-certificates-and-public-key-infrastructures">325.1 X.509 Certificates and Public Key Infrastructures</h2>
+<h2 id="description-candidates-should-understand-x509-certificates-and-public-key-infrastructures-they-should-know-how-to-configure-and-use-openssl-to-implement-certification-authorities-and-issue-ssl-certificates-for-various-purposes">Description: Candidates should understand X.509 certificates and public key infrastructures. They should know how to configure and use OpenSSL to implement certification authorities and issue SSL certificates for various purposes.</h2>
+<h3 id="key-knowledge-areas">Key Knowledge Areas:</h3>
+<pre><code>- Understand X.509 certificates, X.509 certificate lifecycle, X.509 certificate fields and X.509v3 certificate extensions
+- Understand trust chains and public key infrastructures
+- Generate and manage public and private keys
+- Create, operate and secure a certification authority
+- Request, sign and manage server and client certificates
+- Revoke certificates and certification authorities
+</code></pre>
+<h4 id="the-following-is-a-partial-list-of-the-used-files-terms-and-utilities">The following is a partial list of the used files, terms and utilities:</h4>
+<pre><code>- openssl, including relevant subcommands
+- OpenSSL configuration
+- PEM, DER, PKCS
+- CSR
+- CRL
+- OCSP
+</code></pre>
+<h2 id="3252-x509-certificates-for-encryption-signing-and-authentication">325.2 X.509 Certificates for Encryption, Signing and Authentication</h2>
+<h2 id="description-candidates-should-know-how-to-use-x509-certificates-for-both-server-and-client-authentication-candidates-should-be-able-to-implement-user-and-server-authentication-for-apache-httpd-the-version-of-apache-httpd-covered-is-24-or-higher">Description: Candidates should know how to use X.509 certificates for both server and client authentication. Candidates should be able to implement user and server authentication for Apache HTTPD. The version of Apache HTTPD covered is 2.4 or higher.</h2>
+<h3 id="key-knowledge-areas-1">Key Knowledge Areas:</h3>
+<pre><code>- Understand SSL, TLS and protocol versions
+- Understand common transport layer security threats, for example Man-in-the-Middle
+- Configure Apache HTTPD with mod_ssl to provide HTTPS service, including SNI and HSTS
+- Configure Apache HTTPD with mod_ssl to authenticate users using certificates
+- Configure Apache HTTPD with mod_ssl to provide OCSP stapling
+- Use OpenSSL for SSL/TLS client and server tests
+</code></pre>
+<h4 id="terms-and-utilities">Terms and Utilities:</h4>
+<pre><code>- Intermediate certification authorities
+- Cipher configuration (no cipher-specific knowledge)
+- httpd.conf
+- mod_ssl
+- openssl
+</code></pre>
+<h2 id="3253-encrypted-file-systems">325.3 Encrypted File Systems</h2>
+<h2 id="description-candidates-should-be-able-to-setup-and-configure-encrypted-file-systems">Description: Candidates should be able to setup and configure encrypted file systems.</h2>
+<h3 id="key-knowledge-areas-2">Key Knowledge Areas:</h3>
+<pre><code>- Understand block device and file system encryption
+- Use dm-crypt with LUKS to encrypt block devices
+- Use eCryptfs to encrypt file systems, including home directories and
+- PAM integration
+- Be aware of plain dm-crypt and EncFS
+</code></pre>
+<h4 id="terms-and-utilities-1">Terms and Utilities:</h4>
+<pre><code>- cryptsetup
+- cryptmount
+- /etc/crypttab
+- ecryptfsd
+- ecryptfs-* commands
+- mount.ecryptfs, umount.ecryptfs
+- pam_ecryptfs
+</code></pre>
+<h2 id="3254-dns-and-cryptography">325.4 DNS and Cryptography</h2>
+<h2 id="description-candidates-should-have-experience-and-knowledge-of-cryptography-in-the-context-of-dns-and-its-implementation-using-bind-the-version-of-bind-covered-is-97-or-higher">Description: Candidates should have experience and knowledge of cryptography in the context of DNS and its implementation using BIND. The version of BIND covered is 9.7 or higher.</h2>
+<h3 id="key-knowledge-areas-3">Key Knowledge Areas:</h3>
+<pre><code>- Understanding of DNSSEC and DANE
+- Configure and troubleshoot BIND as an authoritative name server serving DNSSEC secured zones
+- Configure BIND as an recursive name server that performs DNSSEC validation on behalf of its clients
+- Key Signing Key, Zone Signing Key, Key Tag
+- Key generation, key storage, key management and key rollover
+- Maintenance and re-signing of zones
+- Use DANE to publish X.509 certificate information in DNS
+- Use TSIG for secure communication with BIND
+</code></pre>
+<h4 id="terms-and-utilities-2">Terms and Utilities:</h4>
+<pre><code>- DNS, EDNS, Zones, Resource Records
+- DNS resource records: DS, DNSKEY, RRSIG, NSEC, NSEC3, NSEC3PARAM, TLSA
+- DO-Bit, AD-Bit
+- TSIG
+- named.conf
+- dnssec-keygen
+- dnssec-signzone
+- dnssec-settime
+- dnssec-dsfromkey
+- rndc
+- dig
+- delv
+- openssl
+</code></pre>
+<h1 id="topic-326-host-security">Topic 326: Host Security</h1>
+<h2 id="3261-host-hardening">326.1 Host Hardening</h2>
+<h2 id="description-candidates-should-be-able-to-secure-computers-running-linux-against-common-threats-this-includes-kernel-and-software-configuration">Description: Candidates should be able to secure computers running Linux against common threats. This includes kernel and software configuration.</h2>
+<h3 id="key-knowledge-areas-4">Key Knowledge Areas:</h3>
+<pre><code>- Configure BIOS and boot loader (GRUB 2) security
+- Disable useless software and services
+- Use sysctl for security related kernel configuration, particularly ASLR, Exec-Shield and IP / ICMP configuration
+- Exec-Shield and IP / ICMP configuration
+- Limit resource usage
+- Work with chroot environments
+- Drop unnecessary capabilities
+- Be aware of the security advantages of virtualization
+</code></pre>
+<h4 id="terms-and-utilities-3">Terms and Utilities:</h4>
+<pre><code>- grub.cfg
+- chkconfig, systemctl
+- ulimit
+- /etc/security/limits.conf
+- pam_limits.so
+- chroot
+- sysctl
+- /etc/sysctl.conf
+</code></pre>
+<h2 id="3262-host-intrusion-detection">326.2 Host Intrusion Detection</h2>
+<h2 id="description-candidates-should-be-familiar-with-the-use-and-configuration-of-common-host-intrusion-detection-software-this-includes-updates-and-maintenance-as-well-as-automated-host-scans">Description: Candidates should be familiar with the use and configuration of common host intrusion detection software. This includes updates and maintenance as well as automated host scans.</h2>
+<h3 id="key-knowledge-areas-5">Key Knowledge Areas:</h3>
+<pre><code>- Use and configure the Linux Audit system
+- Use chkrootkit
+- Use and configure rkhunter, including updates
+- Use Linux Malware Detect
+- Automate host scans using cron
+- Configure and use AIDE, including rule management
+- Be aware of OpenSCAP
+</code></pre>
+<h4 id="terms-and-utilities-4">Terms and Utilities:</h4>
+<pre><code>- auditd
+- auditctl
+- ausearch, aureport
+- auditd.conf
+- auditd.rules
+- pam_tty_audit.so
+- chkrootkit
+- rkhunter
+- /etc/rkhunter.conf
+- maldet
+- conf.maldet
+- aide
+- /etc/aide/aide.conf
+</code></pre>
+<h2 id="3263-user-management-and-authentication">326.3 User Management and Authentication</h2>
+<h2 id="description-candidates-should-be-familiar-with-management-and-authentication-of-user-accounts-this-includes-configuration-and-use-of-nss-pam-sssd-and-kerberos-for-both-local-and-remote-directories-and-authentication-mechanisms-as-well-as-enforcing-a-password-policy">Description: Candidates should be familiar with management and authentication of user accounts. This includes configuration and use of NSS, PAM, SSSD and Kerberos for both local and remote directories and authentication mechanisms as well as enforcing a password policy.</h2>
+<h3 id="key-knowledge-areas-6">Key Knowledge Areas:</h3>
+<pre><code>- Understand and configure NSS
+- Understand and configure PAM
+- Enforce password complexity policies and periodic password changes
+- Lock accounts automatically after failed login attempts
+- Configure and use SSSD
+- Configure NSS and PAM for use with SSSD
+- Configure SSSD authentication against Active Directory, IPA, LDAP, Kerberos and local domains
+- Kerberos and local domains
+- Obtain and manage Kerberos tickets
+</code></pre>
+<h4 id="terms-and-utilities-5">Terms and Utilities:</h4>
+<pre><code>- nsswitch.conf
+- /etc/login.defs
+- pam_cracklib.so
+- chage
+- pam_tally.so, pam_tally2.so
+- faillog
+- pam_sss.so
+- sssd
+- sssd.conf
+- sss_* commands
+- krb5.conf
+- kinit, klist, kdestroy
+</code></pre>
+<h1 id="3264-freeipa-installation-and-samba-integration">326.4 FreeIPA Installation and Samba Integration</h1>
+<h2 id="description-candidates-should-be-familiar-with-freeipa-v4x-this-includes-installation-and-maintenance-of-a-server-instance-with-a-freeipa-domain-as-well-as-integration-of-freeipa-with-active-directory">Description: Candidates should be familiar with FreeIPA v4.x. This includes installation and maintenance of a server instance with a FreeIPA domain as well as integration of FreeIPA with Active Directory.</h2>
+<h3 id="key-knowledge-areas-7">Key Knowledge Areas:</h3>
+<pre><code>- Understand FreeIPA, including its architecture and components
+- Understand system and configuration prerequisites for installing FreeIPA
+- Install and manage a FreeIPA server and domain
+- Understand and configure Active Directory replication and Kerberos cross-realm trusts
+- Be aware of sudo, autofs, SSH and SELinux integration in FreeIPA
+</code></pre>
+<h4 id="terms-and-utilities-6">Terms and Utilities:</h4>
+<pre><code>- RedHat 389 Directory Server, MIT Kerberos, Dogtag Certificate System, NTP, DNS, SSSD, certmonger
+- ipa, including relevant subcommands
+- ipa-server-install, ipa-client-install, ipa-replica-install
+- ipa-replica-prepare, ipa-replica-manage
+</code></pre>
+<h1 id="topic-327-access-control">Topic 327: Access Control</h1>
+<h1 id="3271-discretionary-access-control">327.1 Discretionary Access Control</h1>
+<h2 id="description-candidates-are-required-to-understand-discretionary-access-control-and-know-how-to-implement-it-using-access-control-lists-additionally-candidates-are-required-to-understand-and-know-how-to-use-extended-attributes">Description: Candidates are required to understand Discretionary Access Control and know how to implement it using Access Control Lists. Additionally, candidates are required to understand and know how to use Extended Attributes.</h2>
+<h3 id="key-knowledge-areas-8">Key Knowledge Areas:</h3>
+<pre><code>- Understand and manage file ownership and permissions, including SUID and SGID
+- Understand and manage access control lists
+- Understand and manage extended attributes and attribute classes
+</code></pre>
+<h4 id="terms-and-utilities-7">Terms and Utilities:</h4>
+<pre><code>- getfacl
+- setfacl
+- getfattr
+- setfattr
+</code></pre>
+<h2 id="3272-mandatory-access-control">327.2 Mandatory Access Control</h2>
+<h2 id="description-candidates-should-be-familiar-with-mandatory-access-control-systems-for-linux-specifically-candidates-should-have-a-thorough-knowledge-of-selinux-also-candidates-should-be-aware-of-other-mandatory-access-control-systems-for-linux-this-includes-major-features-of-these-systems-but-not-configuration-and-use">Description: Candidates should be familiar with Mandatory Access Control systems for Linux. Specifically, candidates should have a thorough knowledge of SELinux. Also, candidates should be aware of other Mandatory Access Control systems for Linux. This includes major features of these systems but not configuration and use.</h2>
+<h3 id="key-knowledge-areas-9">Key Knowledge Areas:</h3>
+<pre><code>- Understand the concepts of TE, RBAC, MAC and DAC
+- Configure, manage and use SELinux
+- Be aware of AppArmor and Smack
+</code></pre>
+<h4 id="terms-and-utilities-8">Terms and Utilities:</h4>
+<pre><code>- getenforce, setenforce, selinuxenabled
+- getsebool, setsebool, togglesebool
+- fixfiles, restorecon, setfiles
+- newrole, runcon
+- semanage
+- sestatus, seinfo
+- apol
+- seaudit, seaudit-report, audit2why, audit2allow
+- /etc/selinux/*
+</code></pre>
+<h2 id="3273-network-file-systems">327.3 Network File Systems</h2>
+<h2 id="description-candidates-should-have-experience-and-knowledge-of-security-issues-in-use-and-configuration-of-nfsv4-clients-and-servers-as-well-as-cifs-client-services-earlier-versions-of-nfs-are-not-required-knowledge">Description: Candidates should have experience and knowledge of security issues in use and configuration of NFSv4 clients and servers as well as CIFS client services. Earlier versions of NFS are not required knowledge.</h2>
+<h3 id="key-knowledge-areas-10">Key Knowledge Areas:</h3>
+<pre><code>- Understand NFSv4 security issues and improvements
+- Configure NFSv4 server and clients
+- Understand and configure NFSv4 authentication mechanisms (LIPKEY, SPKM, Kerberos)
+- Understand and use NFSv4 pseudo file system
+- Understand and use NFSv4 ACLs
+- Configure CIFS clients
+- Understand and use CIFS Unix Extensions
+- Understand and configure CIFS security modes (NTLM, Kerberos)
+- Understand and manage mapping and handling of CIFS ACLs and SIDs in a Linux system
+</code></pre>
+<h4 id="terms-and-utilities-9">Terms and Utilities:</h4>
+<pre><code>- /etc/exports
+- /etc/idmap.conf
+- nfs4acl
+- mount.cifs parameters related to ownership, permissions and security modes
+- winbind
+- getcifsacl, setcifsacl
+</code></pre>
+<h1 id="topic-328-network-security">Topic 328: Network Security</h1>
+<h2 id="3281-network-hardening">328.1 Network Hardening</h2>
+<h2 id="description-candidates-should-be-able-to-secure-networks-against-common-threats-this-includes-verification-of-the-effectiveness-of-security-measures">Description: Candidates should be able to secure networks against common threats. This includes verification of the effectiveness of security measures.</h2>
+<h3 id="key-knowledge-areas-11">Key Knowledge Areas:</h3>
+<pre><code>- Configure FreeRADIUS to authenticate network nodes
+- Use nmap to scan networks and hosts, including different scan methods
+- Use Wireshark to analyze network traffic, including filters and statistics
+- Identify and deal with rogue router advertisements and DHCP messages
+</code></pre>
+<h4 id="terms-and-utilities-10">Terms and Utilities:</h4>
+<pre><code>- radiusd
+- radmin
+- radtest, radclient
+- radlast, radwho
+- radiusd.conf
+- /etc/raddb/*
+- nmap
+- wireshark
+- tshark
+- tcpdump
+- ndpmon
+</code></pre>
+<h2 id="3282-network-intrusion-detection">328.2 Network Intrusion Detection</h2>
+<h2 id="description-candidates-should-be-familiar-with-the-use-and-configuration-of-network-security-scanning-network-monitoring-and-network-intrusion-detection-software-this-includes-updating-and-maintaining-the-security-scanners">Description: Candidates should be familiar with the use and configuration of network security scanning, network monitoring and network intrusion detection software. This includes updating and maintaining the security scanners.</h2>
+<h3 id="key-knowledge-areas-12">Key Knowledge Areas:</h3>
+<pre><code>- Implement bandwidth usage monitoring
+- Configure and use Snort, including rule management
+- Configure and use OpenVAS, including NASL
+</code></pre>
+<h4 id="terms-and-utilities-11">Terms and Utilities:</h4>
+<pre><code>- ntop
+- Cacti
+- snort
+- snort-stat
+- /etc/snort/*
+- openvas-adduser, openvas-rmuser
+- openvas-nvt-sync
+- openvassd
+- openvas-mkcert
+- /etc/openvas/*
+</code></pre>
+<h2 id="3283-packet-filtering">328.3 Packet Filtering</h2>
+<h2 id="description-candidates-should-be-familiar-with-the-use-and-configuration-of-packet-filters-this-includes-netfilter-iptables-and-ip6tables-as-well-as-basic-knowledge-of-nftables-nft-and-ebtables">Description: Candidates should be familiar with the use and configuration of packet filters. This includes netfilter, iptables and ip6tables as well as basic knowledge of nftables, nft and ebtables.</h2>
+<h3 id="key-knowledge-areas-13">Key Knowledge Areas:</h3>
+<pre><code>- Understand common firewall architectures, including DMZ
+- Understand and use netfilter, iptables and ip6tables, including standard modules, tests and targets
+- Implement packet filtering for both IPv4 and IPv6
+- Implement connection tracking and network address translation
+- Define IP sets and use them in netfilter rules
+- Have basic knowledge of nftables and nft
+- Have basic knowledge of ebtables
+- Be aware of conntrackd
+</code></pre>
+<h4 id="terms-and-utilities-12">Terms and Utilities:</h4>
+<pre><code>- iptables
+- ip6tables
+- iptables-save, iptables-restore
+- ip6tables-save, ip6tables-restore
+- ipset
+- nft
+- ebtables
+</code></pre>
+<h2 id="3284-virtual-private-networks">328.4 Virtual Private Networks</h2>
+<h2 id="description-candidates-should-be-familiar-with-the-use-of-openvpn-and-ipsec">Description: Candidates should be familiar with the use of OpenVPN and IPsec.</h2>
+<h3 id="key-knowledge-areas-14">Key Knowledge Areas:</h3>
+<pre><code>- Configure and operate OpenVPN server and clients for both bridged and routed VPN networks
+- Configure and operate IPsec server and clients for routed VPN networks using IPsec-Tools / racoon
+- Awareness of L2TP
+</code></pre>
+<h4 id="terms-and-utilities-13">Terms and Utilities:</h4>
+<pre><code>- /etc/openvpn/*
+- openvpn server and client
+- setkey
+- /etc/ipsec-tools.conf
+- /etc/racoon/racoon.conf
+</code></pre>
+<p>Last Modified: <!-- raw HTML omitted --> 2021-07-03T23:54:27.543892Z <!-- raw HTML omitted --></p>
+
+
+
+
+
+
+
+<p><a name="nav-menu" id="nav-menu"><strong>Site menu</strong></a></p>
+
+<ul>
+    
+    <li>
+      <a href="../../">
+      
+      Home
+      </a>
+    </li>
+    
+    <li>
+      <a href="../../videos/">
+      
+      Videos
+      </a>
+    </li>
+    
+</ul>
+
+<p><a href="#">Back to top</a></p>
+</body>
+</html>
