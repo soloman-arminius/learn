@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lpics on Education Site (ver 1)</title>
+    <link>/lpic/</link>
+    <description>Recent content in Lpics on Education Site (ver 1)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/lpic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/lpic/exam-010/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lpic/exam-010/</guid>
+      <description>This is a local reconstruction of LPI&amp;rsquo;s LPIC-1 content.
+Topic 1: The Linux Community and a Career in Open Source 1.1 Linux Evolution and Popular Operating Systems Description: Knowledge of Linux development and major distributions. Key Knowledge Areas:  Distributions Embedded Systems Linux in the Cloud  The following is a partial list of the used files, terms and utilities: - Debian, Ubuntu (LTS) - CentOS, openSUSE, Red Hat, SUSE - Linux Mint, Scientific Linux - Raspberry Pi, Raspbian - Android  1.</description>
+    </item>
+    
+  </channel>
+</rss>
